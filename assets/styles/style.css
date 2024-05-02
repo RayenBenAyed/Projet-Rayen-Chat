@@ -1,0 +1,116 @@
+header {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  nav {
+    background-color: #000000;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  nav ul li a:hover {
+    background-color: green;
+  }
+  body{
+    color:white;
+     background-color: yellowgreen;
+  }
+  
+section h2 {
+color:white;
+font-style: italic;
+}
+body h2 {
+    color:white
+}
+body p {
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+ body {
+    background-color: yellowgreen;
+ } 
+
+footer {
+  background-color: green;
+  }
+
+
+
+  .card-acceuil { font-size: 15px;
+    padding-top: 50px;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-left: 20px;
+    align-items: center;
+    height: 80px;
+;}
+.card-produits{font-size: 15px;
+    padding-top: 100px;
+    padding-left: 10px;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-left: 20px;
+    align-items: center;
+    height: 80px;
+}
+.card {
+    width: 400px;
+    margin: 0px auto;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 5px 20px #000000;
+  }
+  .card a {
+    color: #333;
+    text-decoration: none;
+  }
+  .card:hover .card-image img {
+  
+    filter: grayscale(0);
+  }
+  .card-body {
+    text-align:center;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+.card-date {
+    font-family: oblique
+}
+  .card-title, .card-excerpt {
+     font-family: oblique;
+     color: #fff;
+  }
+  .card-date, .card-title {
+    text-align:center;
+    text-transform:uppercase;
+    font-weight: bold;
+  }
+  .card-date, .card-excerpt {
+    color: #000000;
+  }
+  .card-image{text-align: center;}
+  .div-sax{text-align: center;
+  color: #fff;}
+.sax-text{color: #fff;}
+
+  
+/* Style pour la carte */
+#map {
+  height: 400px;
+}
+
